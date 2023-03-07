@@ -6,10 +6,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "@badrap/bar-of-progress": "^0.2.2",
     "@heroicons/react": "^1.0.6",
+    "date-fns": "^2.29.3",
+    "geolib": "^3.3.3",
     "next": "latest",
-    "react": "18.2.0",
+    "react": "^18.2.0",
+    "react-date-range": "^1.4.0",
     "react-dom": "18.2.0",
+    "react-map-gl": "^7.0.21",
     "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
@@ -20,5 +25,10 @@
     "postcss": "^8.4.18",
     "tailwindcss": "^3.2.4",
     "typescript": "4.9.4"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
   }
 }
